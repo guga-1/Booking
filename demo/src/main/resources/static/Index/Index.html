@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="indexcss.css"/>
+    <title>Roomchat</title>
+    <script src="indexjs.js"></script>
+</head>
+<body>
+<label class="title">Booking</label>
+
+
+<div class="popup">
+    <div class="popupwindow">
+        <div class="verticallayout">
+            <label class="title" style="font-size: 25px" id="title">New room</label>
+            <div class="horizontallayout" id="popupmaindiv">
+                <select id="select"></select>
+                <button style="width: 106px;height: 21px;margin-left: 50px;" type="button" onclick="submitreserve()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="verticallayout">
+    <div id="roomdiv">
+    </div>
+</div>
+</body>
+</html>
